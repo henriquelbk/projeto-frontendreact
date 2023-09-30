@@ -1,5 +1,4 @@
 import { FilterContainer } from "./FiltersStyle";
-import { useState } from "react";
 
 const Filters = ( {minFilter, setMinFilter, maxFilter, setMaxFilter, searchFilter, setSearchFilter,} ) => {
 
