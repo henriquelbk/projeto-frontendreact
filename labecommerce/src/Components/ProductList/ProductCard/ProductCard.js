@@ -1,4 +1,3 @@
-import { productList } from "../../../assets/productList";
 import { CardContainer } from "./ProductCardStyle";
 
 const ProductCard = ({ name, value, imgUrl, addToCart, id }) => {
