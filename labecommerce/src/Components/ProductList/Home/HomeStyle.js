@@ -2,19 +2,22 @@ import styled from "styled-components";
 
 export const HomeContainer = styled.div`
   height: 100vh;
-  border: 1px solid black;
+  max-width:100vw; 
 
   header {
     display: flex;
     justify-content: space-between;
-    padding-right: 1vw;
-    padding-left: 1vw;
+    align-items: top;
+    padding-right: 2vw;
+    padding-left: 2vw;
     padding-top: 2vw;
+    height: 10vh;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
   }
 
   #order {
     display: flex; 
-    align-items: center;
+    align-items: top;
     gap: .5vw;
   }
 
@@ -24,5 +27,8 @@ export const HomeContainer = styled.div`
     padding-top: 6vh;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    max-height: 87vh; 
+    overflow-y: auto;
   }
 `;
